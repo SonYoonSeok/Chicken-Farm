@@ -3692,7 +3692,7 @@ declare class Blueprint extends BlueprintCore {
 	CategorySorting: string[];
 	ImplementedInterfaces: BPInterfaceDescription[];
 	LastEditedDocuments: EditedDocumentInfo[];
-	BookMarks: any;
+	Bookmarks: any;
 	BookmarkNodes: BPEditorBookmarkNode[];
 	Breakpoints: Breakpoint[];
 	WatchedPins: EdGraphPinReference[];
@@ -11196,7 +11196,7 @@ declare class WorldSettings extends Info {
 	HierarchicalLODSetup: HierarchicalSimplification[];
 	NumHLODLevels: number;
 	bGenerateSingleClusterForLevel: boolean;
-	BookMarks: BookMark;
+	Bookmarks: BookMark;
 	TimeDilation: number;
 	MatineeTimeDilation: number;
 	DemoPlayTimeDilation: number;
