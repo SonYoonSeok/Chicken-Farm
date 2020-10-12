@@ -4979,7 +4979,7 @@ declare class BlueprintEditorSettings extends UObject {
 	bHideConstructionScriptComponentsInDetailsView: boolean;
 	bHostFindInBlueprintsInGlobalTab: boolean;
 	bNavigateToNativeFunctionsFromCallNodes: boolean;
-	Bookmarks: any;
+	BookMarks: any;
 	BookmarkNodes: BPEditorBookmarkNode[];
 	bIncludeCommentNodesInBookmarksTab: boolean;
 	bShowBookmarksForCurrentDocumentOnlyInTab: boolean;
